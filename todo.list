@@ -1,0 +1,19 @@
+easy :
+	SIGHUP to reload default config file
+	stop command : recuprer le bon signal a envoyer pour kill le prog
+	restart cmd = start + stop
+
+medium:
+	gerer les restart en fonction des atributs
+	autorestart: difference entre always, never et unexpected?
+	--> return codes "expected"
+	timeout du programm avant de le delacrer "runing success". Starging avant ca.
+	restart: retries
+	timoeout du program avant de FORCEKILL si signal du sotp insuffisant
+
+hard:
+	numprocs :  bien manager ca. Nombre d'instance du programme a lancer
+
+
+unknow:
+	umask
